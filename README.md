@@ -8,7 +8,7 @@ At the moment Mk4U is in full development so its use in production is not recomm
 
 If you want to contribute to Mk4U, fork the repository and make your changes to a new branch. Once you've made your changes, submit a pull request and we'll review your changes.
 
-Report bugs or request features on [Github](https://github.com/alexsandrov16/mk4u/issues)
+Report bugs or request features on [Github](https://github.com/alexsandrov16/mk4u/issues).
 
 ## License
 
