@@ -5,7 +5,8 @@
     "require": {
         "php": ">=8.2",
         "ext-json": "*",
-        "filp/whoops": "*"
+        "filp/whoops": "^2.15",
+        "mk4u/http": "^0.2.5"
     },
     "require-dev": {
         "symfony/var-dumper": "*"
