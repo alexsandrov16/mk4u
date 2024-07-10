@@ -1,0 +1,19 @@
+# Denegar visualizacion a directorio raiz.
+Options -Indexes
+
+# Activar HTACCESS
+RewriteEngine On
+
+
+## Reescritura URL ##
+
+# La ruta y el archivo solicitados no coinciden directamente con una carpeta física.
+RewriteCond %{REQUEST_FILENAME} !-d
+# La ruta y el archivo solicitados no coinciden directamente con un archivo físico
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Reescribe internamente la solicitud en el script index.php
+RewriteRule ^ index.php [L]
+
+
+## Seguridad
